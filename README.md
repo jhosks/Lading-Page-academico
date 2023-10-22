@@ -16,4 +16,5 @@ Após preencher o formulário e clicar em "Enviar", o usuário é direcionado a 
   <li>Informe o seu sobrenome</li>
   <li>Digite a sua senha</li> //Este campo somente serviu para mostrar que o type senha não mostra o que está digitando enquanto está preenchendo o campo.
   <li>Clique em enviar para finalizar o contato</li>
+  <p>//Após o envio das informações preenchidas no formulário, irá aparecer uma tela agradecendo o contato.</p>
 </ul>
