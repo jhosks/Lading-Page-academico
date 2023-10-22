@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu site HTML</title>
+</head>
+<body style="margin: 0; font-family: 'Courier New', Courier, monospace;" id="html">
+    <div>
+        <header
+            style="background-color:#000000; text-align: center; padding: 10px 0; font-size: 30px; color:#fff; font-family: 'Courier New', Courier, monospace;"
+            id="topo">
+            <section>
+                <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+                <h3>Tutorial para Iniciantes</h3>
+            </section>
+        </header>
+        <nav>
+            <ul
+                style="background-color: black; list-style: none; display: flex; justify-content: space-between; padding: 10px; font-family: 'Courier New', Courier, monospace;">
+                <li style="flex-grow: 1;"><a href="#html"
+                        style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Início</a></li>
+                <li style="flex-grow: 1;"><a href="#estudo"
+                        style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">HTML</a></li>
+                <li style="flex-grow: 1;"><a href="#tabela"
+                        style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Tabelas e Listas</a>
+                </li>
+                <li style="flex-grow: 1;"><a href="#descricao"
+                        style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Sobre CSS, HTML e JS</a>
+                </li>
+                <li style="flex-grow: 1;"><a href="#rodape"
+                        style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Links</a></li>
+                <li style="flex-grow: 1;"><a href="form.html"
+                        style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Contatos</a></li>
+            </ul>
+        </nav>
+        <section style="margin-bottom: 30px; font-family: 'Courier New', Courier, monospace; padding-left: 10;">
+            <p id="estudo">
+                <img src="https://www.alura.com.br/artigos/assets/html-css-js/imagem-1.png" align="left" width="50"
+                    border="0" title="Logo HTML" />
+                <strong><ins>HTML</ins></strong><i> (Linguagem de Marcação de HiperTexto)</i>
+                é o bloco de construção mais básico da web.
+                <mark>Define o significado e a estrutura do conteúdo da web</mark>.
+                Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a
+                funcionalidade/comportamento (JavaScript) de uma página da web.
+            </p>
+            <h2>Qual a função do HTML?</h2>
+            <p>
+                É o código que você usa para estruturar uma página web e seu conteúdo. Por exemplo, o conteúdo pode ser
+                estruturado em
+                parágrafos, em uma lista com marcadores ou usando imagens e tabelas.
+            </p>
+        </section>
+        <hr>
+        <section style="display: flex" id="tabela">
+            <section style="color: white; float: left; width: 50%; background-color: rgb(0, 0, 0);">
+                <p>
+                <table style="color: #fff; border: 2px solid rgb(255, 255, 255); text-align: center; margin: auto;"
+                    border="1">
+                    <thead>
+                        <tr>
+                            <th colspan="2">Tabela de TAGs HTML</th>
+                        </tr>
+                        <tr>
+                            <th>Tag HTML</th>
+                            <th>Para que Serve</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>define um documentos HTML</td>
+                        </tr>
+                        <tr>
+                            <td>HEAD</td>
+                            <td>Define a área de configuração de um documento HTML</td>
+                        </tr>
+                        <td>BODY</td>
+                        <td>Define a área de conteúdo de um documentos HTML</td>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>Tag de link (ancoragem) em elementos dentro de um doc HTML</td>
+                        </tr>
+                        <tr>
+                            <td>IMG</td>
+                            <td>Define uma imagem dentro de um doc HTML</td>
+                        </tr>
+                        <tr>
+                            <td>Div</td>
+                            <td>Elemento que divide e organiza conteúdos dentro de um doc HTML</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </p>
+            </section>
+            <section style="float: right; width: 50%; color: white; background-color: rgb(18, 26, 20);">
+                <p>
+                    <!-- OL cria uma lista ORDENADA -->
+                <ol type="">
+                    <h3>Top 5 protocolos</h3>
+                    <li>HTTP - HyperText Transfer Protocol</li>
+                    <li>FTP - File Transfer Protocol</li>
+                    <li>POP - Post Office Protocol</li>
+                    <li>SMTP - Simple Mail Transfer Protocol</li>
+                    <li>IMAP - Internet Messaging Access Protocol</li>
+                </ol>
+                <!-- ul CRIA uma lista não ordenada -->
+                <ul>
+                    <li>HTTP - HyperText Transfer Protocol</li>
+                    <li>FTP - File Transfer Protocol</li>
+                    <li>POP - Post Office Protocol</li>
+                    <li>SMTP - Simple Mail Transfer Protocol</li>
+                    <li>IMAP - Internet messaging acess protocol</li>
+                </ul>
+                </p>
+            </section>
+        </section>
+
+        <section style="display: flex; margin-top: 10; margin: 10;" id="descricao">
+            <section style="width: 33.33%; height: 240px; background-color: #ff00b3;">
+                <h3 style="margin: 20;">O que é CSS?</h3>
+                <p style="margin: 20">
+                    CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma
+                    linguagem de marcação como HTML. O CSS separa o conteúdo da representação visual do site.<br>
+                </p>
+            </section>
+            <section style="width: 33.33%; height: 240px; background-color: #78b7ff;">
+                <h3 style="margin: 20;">O que é HTML?</h3>
+                <p style="margin: 20">
+                    HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem
+                    ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.
+                    HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.
+                </p>
+            </section>
+            <section style="width: 33.33%; height: 240px; background-color: rgb(255, 252, 77);">
+                <h3 style="margin: 20;">O que é JavaScript?</h3>
+                <p style="margin: 20">
+                    JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com
+                    tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três
+                    principais tecnologias da World Wide Web.
+                </p>
+            </section>
+        </section>
+        <section id="rodape">
+            <section style="display: flex; margin-top: 10; margin: 10; margin-bottom: auto; border: 10;">
+                <section
+                    style="width: 33.33%; height: 130px; padding-left: 20px; background-color: #64887f; margin-bottom: 10px;">
+                    <h3 style="margin: 20;">Sobre</h3>
+                    <ul>
+                        <li><a href="#topo">Topo</a></li>
+                        <li>Política de privacidade</li>
+                        <li><a href="Contato.html">Fale Conosco</a></li>
+                    </ul>
+                </section>
+                <section style="width: 33.33%; height: 130px; padding-left: 20px; background-color: #485e77;">
+                    <h3 style="margin: 20;">Referências</h3>
+                    <ul>
+                        <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                        <li><a href="https://www.alura.com.br/planos-cursos-online?gclid=EAIaIQobChMIzNyChbi4_gIV1BXUAR1xJgLrEAAYASAAEgIVwfD_BwE"
+                                target="_blank">Alura</a></li>
+                        <li><a href="form.html">Fale Conosco</a></li>
+                    </ul>
+                </section>
+                <section style="width: 33.33%; height: 130px; padding-left: 20px; background-color: rgb(97, 97, 83);">
+                    <h3 style="margin: 20;">Tutoriais</h3>
+                    <ul>
+                        <li>Design</li>
+                        <li>Marketing</li>
+                        <li>Programação</li>
+                        <li>Tutoriais</li>
+                    </ul>
+                </section>
+                <section
+                    style="width: 33.33%; height: 130px; padding-left: 20px; background-color: rgb(218, 217, 200);">
+                    <h3 style="margin: 20;">Outros Links</h3>
+                    <ul>
+                        <li>Escolha 3 links</li>
+                        <li>Para sugerir</li>
+                        <li>Aqui nesse espaço</li>
+                    </ul>
+                </section>
+            </section>
+        </section>
+    </div>
+    <footer id="rodape" style="padding: auto;">
+        <div style="display: grid; grid-template: auto auto auto auto; align-items: flex-start; padding: auto;">
+            <p style="text-align: center;">JhoseffyVictor &copy; Direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
