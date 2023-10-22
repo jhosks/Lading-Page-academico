@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>Meu site HTML</title>
+</head>
+
+<body style="margin: 0; font-family: 'Courier New', Courier, monospace;">
+
+    <header style="background-color:#000000; text-align: center; padding: 10px 0; font-size: 30px; color:#fff; font-family: 'Courier New', Courier, monospace;" id="topo">
+        <section>
+            <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+            <h3>Tutorial para Iniciantes</h3>
+        </section>
+    </header>
+
+    <nav>
+        <ul style="background-color: black; list-style: none; display: flex; justify-content: space-between; padding: 10px; font-family: 'Courier New', Courier, monospace;">
+            <li style="flex-grow: 1;"><a href="index.html#html" style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Início</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#html" style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">HTML</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#html" style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Tabelas e Listas</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#html" style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Sobre CSS, HTML e JS</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#html" style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Links</a></li>
+            <li style="flex-grow: 1;"><a href="index.html#html" style="color: hsl(256, 93%, 27%); text-decoration: none; color: white;">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <div style="padding: 20px;">
+        <form method="get" action="thank.html">
+            <label>Nome:</label> <!-- Rótulo -->
+            <input style="display: block;" type="text" name="nome" required><br>
+            <label>E-mail:</label>
+            <input style="display: block;" type="email" name="email" required><br>
+            <label>Assunto:</label><br>
+            <!-- Estamos agora colocando um campo para selecionar -->
+            <select name="select">
+                <option value="Sugestão">Sugestão</option>
+                <option value="Crítica">Crítica</option>
+                <option value="Elogio">Elogio</option>
+            </select><br>
+            <label>Mensagem:</label><br>
+            <textarea required name="mensagem"></textarea><br>
+            <input type="checkbox" name="termo" value="concordo com os termos" required>
+            <label>Concordo com os termos de Privacidade do Site</label><br>
+            <form method="post" action="processaForm.php">
+                <label>Nome:</label>
+                <input style="display: block;" type="text" name="Firstname"><br>
+                <label>Sobrenome:</label>
+                <input style="display: block;" type="text" name="Lastname"><br>
+                <label>Senha:</label>
+                <input style="display: block;" type="password" name="Senha" required><br>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Apagar">
+            </form>
+        </form>
+    </div>
+
+    <section>
+        <section style="display: flex; margin-top: 10px; margin: 10px; margin-bottom: auto; border: 10px;">
+            <section style="width: 33.33%; height: 130px; padding-left: 20px; background-color: #64887f; margin-bottom: 10px;">Sobre<p>
+                <ul>
+                    <li><a href="index.html#topo">Topo</a></li>
+                    <li>Política de privacidade</li>
+                    <li><a href="Contato.html">Fale Conosco</a></li>
+                </ul>
+            </p></section>
+            <section style="width: 33.33%; height: 130px; padding-left: 20px; background-color: #485e77;">Referências<p>
+                <ul>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                    <li><a href="https://www.alura.com.br/planos-cursos-online?gclid=EAIaIQobChMIzNyChbi4_gIV1BXUAR1xJgLrEAAYASAAEgIVwfD_BwE" target="_blank">Alura</a></li>
+                    <li>Fale conosco</li>
+                </ul>
+            </p></section>
+            <section style="width: 33.33%; height: 130px; padding-left: 20px; background-color: rgb(97, 97, 83);">Tutoriais<p>
+                <ul>
+                    <li>Design</li>
+                    <li>Marketing</li>
+                    <li>Programação</li>
+                    <li>Tutoriais</li>
+                </ul>
+            </p></section>
+            <section style="width: 33.33%; height: 130px; padding-left: 20px; background-color: rgb(218, 217, 200);">Tutoriais<p>
+                <ul>
+                    <li>Escolha 3 links</li>
+                    <li>Para sugerir</li>
+                    <li>Aqui nesse espaço</li>
+                </ul>
+            </p></section>
+        </section>
+    </section>
+
+    <footer id="rodape" style="padding: auto;">
+        <div style="display: grid; grid-template: auto auto auto auto; align-items: flex-start; padding: auto;">
+            <p style="text-align: center;">JhoseffyVictor &copy; Direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
