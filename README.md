@@ -18,3 +18,5 @@ Após preencher o formulário e clicar em "Enviar", o usuário é direcionado a 
   <li>Clique em enviar para finalizar o contato</li>
   <p>//Após o envio das informações preenchidas no formulário, irá aparecer uma tela agradecendo o contato.</p>
 </ul>
+
+<H5><b>Todo os arquivos HTML contém CSS nele.</b></H5>
